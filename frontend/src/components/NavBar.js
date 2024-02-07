@@ -12,7 +12,7 @@ export default function NavBar() {
               <NavLink activeClassName="active" className="nav-link" aria-current="page" to="/">List</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink activeClassName="active" className="nav-link" to="/new">Add</NavLink>
+              <NavLink activeClassName="active" className="nav-link" to="/new">ADD</NavLink>
             </li>
           </ul>
         </div>
