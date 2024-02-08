@@ -15,7 +15,7 @@ public class MyCommandLineRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Product product = new Product();
-        product.setTitle("iPhone");
+        product.setTitle("PC");
         product.setPrice(1200D);
         product.setQuantity(99);
         productService.save(product);
